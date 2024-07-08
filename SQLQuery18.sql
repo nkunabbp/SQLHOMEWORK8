@@ -57,7 +57,7 @@ JOIN T_Cards AS TC
 ON T.Id NOT IN (SELECT DISTINCT Id_Teacher FROM T_Cards)
 
 
--- 3
+-- 4
 -- 1. EXISTS
 SELECT DISTINCT B.Id, B.Name, B.Pages
 FROM Books AS B
